@@ -1,0 +1,103 @@
+*:not(h1){
+    font-family: Source Sans Pro;   
+    font-size: 14px;
+}
+.headerDiv{
+    height: 55px;
+    background-color: #E5E5E5;
+}
+.header{
+    float: left;
+    padding: 10px;
+}
+.inputElement{
+    width: 141px;
+    height: 35px;
+}
+.inputText{
+    width: 233px;
+    height: 35px;
+}
+input {
+    background-image: url('./images/search.png');
+    background-position: 1px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    text-indent: 20px;
+}
+.txtDiv{
+    float: right;
+}
+.filterLabel{
+    padding-top: 15px;
+}
+table {
+    border-collapse: collapse;
+    text-align: left; 
+    width: 100%;
+}
+
+.tableDataRow {
+    border: 1px solid lightgray;
+}
+th, td{
+    padding: 10px;
+}
+.noData{
+    color: lightgrey;
+    font-style: italic;
+}
+.statusIcon{
+    position: relative;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    float: left;
+}
+.confirm{    
+    background: #23C65B;    
+}
+.seated{
+    background: #3EA3EC;    
+}
+.checkedout{
+    background: #E3E7EA;
+}
+.notconfirmed{
+    background: #F8B333;
+}
+.status{
+    padding-left: 4px;
+}
+.arrow{
+    border: solid black;
+    border-width:0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+}
+.up{    
+    height: 1px;
+    width: 1px;
+    float: left;
+    transform: rotate(-135deg);
+    -webkit-transform: (-135deg);
+}
+.down{
+    height: 1px;
+    width: 1px;
+    clear: both;
+    transform: rotate(45deg);
+    -webkit-transform: (45deg);
+}
+.sortLabel{
+    float: left;
+}
+.smallWidth{
+width: 2px;
+padding: 4px;
+}
+.dataTable{
+    clear: both;
+    padding-top: 40px;
+}
